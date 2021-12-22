@@ -1,0 +1,109 @@
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: black;
+}
+
+header{
+    background-image: url(/img/fundo.gif);
+    display: flex;
+    justify-content: center;
+}
+
+#cabecalho{
+    width: 80%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+header div nav {
+    display: flex;
+}
+
+header div nav div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2px;
+    background: linear-gradient(to top, #777, #ddd);
+    width: 150px;
+    height: 55px;
+}
+
+#redeSocial{
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 1;
+    align-self: flex-start;
+    margin-top: 20px;
+}
+
+#redeSocial img{
+    margin-left: 5px;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+section form{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+section form label{
+    margin-top: 10px;
+}
+
+#button{
+    margin-top: 20px;
+}
+
+#button input{
+    width: 150px;
+    height: 30px;
+    margin-right: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #09f;
+}
+
+#button input:hover {
+    background-color: #1af;
+    color: white;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+#rodape{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+#rodape a{
+    margin-left: 10px;
+}
+
+#rodape div{
+    margin-right: 10px;
+}
+
+#rodape a, #rodape div{
+    color: #bbb;
+}
+
+#rodape a:hover{
+    color: black;
+}
