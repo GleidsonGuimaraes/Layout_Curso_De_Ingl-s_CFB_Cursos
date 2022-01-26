@@ -24,32 +24,57 @@
     </header>
 
     <section>
-        <form action="#" method="post" name="fContato">
-            <label for="">Nome</label>
-            <input type="text">
+        <form name="fContato" action="#" method="post">
 
-            <label for="">Telefone</label>
-            <input type="tel" value="(xx) xxxxx-xxxx" maxlength="14">
-
-            <label for="">Email</label>
-            <input type="email">
-
-            <label for="">CEP</label>
-            <input type="text" value="xxxxx-xxx" maxlength="9">
-
-            <label for="">Data de Nascimento</label>
-            <input type="date" value="dd/mm/aa">
-
-            <label for="">Módulo que pretende iniciar(sujeito a teste de conhecimento)</label>
-            <input type="number" min="1" max="3" step="1" value="1">
-
-            <label for="">Horário de início</label>
-            <input type="time" min="07:00" max="18:00" value="10:00">
-            
-            <div id="button">
-                <input type="submit">
-                <input type="reset">
+            <div id="formulario">
+    
+                <div class="topicForm">
+                    <label>Nome</label>
+                    <input type="text" maxlength="50" size="60" name="fNome" autofocus required>            
+                </div>
+        
+                <div class="topicForm">
+                    <label>Telefone</label>
+                    <input type="tel" maxlength="15" size="20" name="fFone" placeholder="(88) 8 8888-8888">
+                </div>
+        
+                <div class="topicForm">
+                    <label>Email de contato</label>
+                    <input type="email" maxlength="50" size="60" name="fEmail" placeholder="aluno@cfbcursos.com" required>
+                </div>
+        
+                <div class="topicForm">
+                    <label>Cep</label>
+                    <input type="text" maxlength="10" size="15" name="fCep" placeholder="xxxxx-xxx" pattern="\d{5}-?\d{3}" required>
+                </div>
+        
+                <div class="topicForm">
+                    <label>Módulo que pretende iniciar</label>
+                    <input type="number" min="1" max="3" step="1" value="1" name="fModulo" required>
+                </div>
+                
+                <div class="topicForm">
+                    <label>Horário de Início</label>
+                    <input type="time" value="10:00" step="1800" name="fHorario" required>
+                </div>
+        
+                <div class="topicForm">
+                    <label>Cor da Pasta</label>
+                    <input type="color" name="fColor" value="#880088" required>
+                </div>
+        
+                <div class="topicForm">
+                    <label>Data de Nascimento</label>
+                    <input type="date" name="fNascimento" required>
+                </div>
+        
+                <div id="buttons">
+                    <input class="bt" type="submit" value="Enviar" name="Enviar">
+                    <input class="bt" type="reset" value="Reset" name="Reset">
+                </div>
+    
             </div>
+    
         </form>
     </section>
 

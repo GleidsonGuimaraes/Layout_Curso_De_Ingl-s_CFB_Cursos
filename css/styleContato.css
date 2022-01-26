@@ -46,40 +46,47 @@ header div nav div{
     margin-left: 5px;
 }
 
-section{
+/*  */
+form {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    flex-direction: column;
 }
 
-section form{
+#formulario {
+    margin-top: 20px;
+    background: #eee;
+    padding: 30px;
+    border-radius: 10px;
+    width: 40%;
+}
+
+.topicForm {
     display: flex;
     flex-direction: column;
-    width: 80%;
+    margin-bottom: 10px;
 }
 
-section form label{
-    margin-top: 10px;
+#buttons {
+    flex-direction: row;
+    justify-content: flex-start;
 }
 
-#button{
-    margin-top: 20px;
-}
-
-#button input{
-    width: 150px;
-    height: 30px;
+.bt {
     margin-right: 10px;
-    border-radius: 10px;
+    width: 100px;
+    height: 25px;
     border: none;
-    background-color: #09f;
+    background-color: #0099ee;
+    border-radius: 5px;
 }
 
-#button input:hover {
-    background-color: #1af;
+.bt:hover {
+    background-color: #00aaee;
     color: white;
 }
 
+/*  */
 footer{
     display: flex;
     justify-content: center;
