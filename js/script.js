@@ -5,7 +5,7 @@ function autoTrocar() {
 }
 
 function trocar() {
-    document.getElementById("banner").style.backgroundImage = "url(/img/banner" + cont + ".jpg";
+    document.getElementById("banner").style.backgroundImage = "url(img/banner" + cont + ".jpg)";
     cont++;
     if(cont > 3){
         cont = 1;

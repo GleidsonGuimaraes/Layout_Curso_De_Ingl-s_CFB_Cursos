@@ -1,3 +1,8 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
 a{
     text-decoration: none;
     color: white;
@@ -8,7 +13,7 @@ a:hover{
 }
 
 header{
-    background-image: url(/img/fundo.gif);
+    background: linear-gradient(#326667 63%, #214445 63%, #326667 67%, #327778 77%, #326667 90%, #325556 95%, #214445);
     display: flex;
     justify-content: center;
 }
@@ -20,11 +25,11 @@ header{
     justify-content: space-between;
 }
 
-header div nav {
+nav {
     display: flex;
 }
 
-header div nav div{
+.navCabecalho{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -42,8 +47,9 @@ header div nav div{
     margin-top: 20px;
 }
 
-#redeSocial img{
+.imgRedeSocial{
     margin-left: 5px;
+    width: 30px;
 }
 
 /*  */
